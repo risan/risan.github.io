@@ -46,7 +46,7 @@ const plot = (id, { field, cumulative = false, color = '#1f77b4' }) => {
             field: fieldIdx, 
             type: 'quantitative',
             axis: {
-              title: 'Total',
+              title: null,
             },
           },
           tooltip: [
